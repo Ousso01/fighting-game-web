@@ -10,6 +10,17 @@
       box-sizing: border-box;
       font-family: "Press Start 2P", cursive;
     }
+     .controls {
+      padding: 3px;
+    }
+    img {
+      display: flex;
+      height: 25px;
+      width: 25px;
+    }
+    td{
+      padding-left: 5px;
+    }
   </style>
 </head>
 <body>
@@ -111,6 +122,28 @@
       Tie
     </div>
     <canvas></canvas>
+    <div>
+      <table>
+        <tr class="controls">
+          <td class="controls"><small>Player 1</small></td>
+          <td class="controls">
+            <img src="./controls/icons8-a-50.png" alt="" />
+            
+            
+          </td>
+          <td><img src="./controls/icons8-w-key-50.png" alt=""/></td>
+          <td><img src="./controls/icons8-d-50.png" alt="" /></td>
+          <td><img src="./controls/icons8-space-key-50.png" alt=""></td>
+        </tr>
+        <tr>
+          <td class="controls"><small>Player 2</small></td>
+          <td><img src="./controls/icons8-left-arrow-key-64.png" alt=""></td>
+          <td><img src="./controls/icons8-up-arrow-key-64.png" alt=""></td>
+          <td><img src="./controls/icons8-right-arrow-key-64.png" alt=""></td>
+          <td><img src="./controls/icons8-down-arrow-key-64.png" alt=""></td>
+        </tr>
+      </table>
+    </div>
   </div>
 
   <script
